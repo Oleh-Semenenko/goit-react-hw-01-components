@@ -1,0 +1,16 @@
+.history {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 650px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th {
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: rgb(30, 131, 246);
+    border: 1px solid grey;
+}
