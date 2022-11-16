@@ -6,11 +6,25 @@
     table-layout: fixed;
 }
 
-th {
+.tableHeader {
     padding: 20px;
     text-align: center;
     font-weight: 600;
     font-size: 18px;
     background-color: rgb(30, 131, 246);
     border: 1px solid grey;
+}
+
+.tableData {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+tbody .tableRow:nth-child(odd) {
+  background-color: #d8e9f8;
+}
+
+tbody .tableRow:nth-child(even) {
+  background-color: #9ec6f3;
 }
